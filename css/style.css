@@ -1,11 +1,70 @@
+/* Fonts */
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto.woff2") format("woff2"),
+    url("../fonts/roboto.woff") format(woff);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/robotomedium.woff2") format("woff2"),
+    url("../fonts/robotomedium.woff") format(woff);
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/robotobold.woff2") format("woff2"),
+    url("../fonts/robotobold.woff") format(woff);
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Variables */
 :root {
   --basic-black: #000000;
   --basic-white: #ffffff;
   --basic-light-red: #fb565a;
-  --basic-green: #00ca74;
-  --basic-yellow: #efc849;
+  --basic-medium-red: #e74246;
+  --basic-red: #d7373b;
+  --basic-light-green: #00ca74;
+  --basic-medium-green: #00bc6c;
+  --basic-green: #00aa62;
+  --basic-light-yellow: #efc849;
+  --basic-medium-yellow: #eab534;
+  --basic-yellow: #e5a722;
   --basic-dark: #283136;
+  --basic-dark-grey: #4d4d4d;
   --basic-grey: #444444;
   --basic-dark-grey: #666666;
   --basic-light-grey: #eeeeee;
 }
+
+/* Global */
+
+body {
+  min-width: 1100px;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
