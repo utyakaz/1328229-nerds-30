@@ -39,21 +39,30 @@
   --basic-dark: #283136;
   --basic-dark-grey: #4d4d4d;
   --basic-grey: #444444;
-  --basic-dark-grey: #666666;
   --basic-light-grey: #eeeeee;
+
+  /* footer */
+
+  --basic-icon-grey: #e1e1e1;
+  --basic-text-grey: #666666;
+
+  /* button */
+
+  --basic-focus-grey: #dfdfdf;
+  --basic-press-grey: #d5d5d5;
 }
 
 /* Global */
 
-body {
+.page-body {
   min-width: 1100px;
   margin: 0;
   padding: 0;
-  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 24px;
   font-weight: 400;
-  color: var(--basic-black);
+  color: var(--basic-dark);
   background-color: var(--basic-white);
   background-position: top center;
   background-repeat: no-repeat;
@@ -61,6 +70,10 @@ body {
 
 a {
   text-decoration: none;
+  color: var(--basic-white);
+  line-height: 18px;
+  font-weight: 500;
+
 }
 
 img {
@@ -68,3 +81,192 @@ img {
   height: auto;
 }
 
+.main-header {
+  background-color: var(--basic-light-grey);
+  background-size: width="1440px" height="114px";
+}
+
+/* button */
+
+.button {
+  background-color: var(--basic-light-red);
+}
+
+.button-green {
+  background-color: var(--basic-light-green);
+}
+
+.button-yellow {
+  background-color: var(--basic-light-yellow);
+}
+
+/* main-navigation */
+
+.main-navigation {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  color: var(--basic-black);
+  background-color: transparent;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a,
+.basket a {
+  color: var(--basic-black);
+}
+
+.site-navigation a:hover,
+.basket a:hover {
+  color: var(--basic-light-red);
+}
+
+.site-navigation a:focus,
+.basket a:focus {
+  color: var(--basic-black);
+  opacity: 0.3;
+}
+
+/* Features */
+
+.features {
+  background-color: var(--basic-light-grey);
+}
+
+.features-list {
+  list-style: none;
+}
+
+.features-item {
+  margin-left: 140px;
+}
+
+.features-text-main {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 500;
+  color: var(--basic-black);
+}
+
+.features a:hover {
+  background-color: var(--basic-medium-red);
+}
+
+.features a:focus {
+  background-color: var(--basic-red);
+}
+
+.slider-img {
+  background-color: var(--basic-grey);
+}
+
+/* services */
+
+.services-list {
+  list-style: none;
+}
+
+.services-img (
+  background-color: var(--basic-grey);
+)
+
+/* Info */
+
+.info-text-main {
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 45px;
+  color: var(--basic-black);
+}
+
+.info-text-bold {
+  font-weight: 700;
+  color: var(--basic-black);
+}
+
+.info-list p {
+  color: var(--basic-dark);
+}
+
+.info-item {
+  line-height: 18px;
+}
+
+.procent {
+  font-size: 45px;
+  color: var(--basic-black);
+  font-weight: 700;
+  line-height: 64px;
+}
+
+
+/* Partners */
+
+.partners-list {
+  list-style: none;
+}
+
+.partners-logo {
+  opacity: 0.2;
+}
+
+/* НЕПОНИМАЮ КАК СДЕЛАТЬ ПРОЗРАЧНОСТЬ ПРИ НАВЕДЕНИИ И КЛИКЕ */
+.partner-list a:hover {
+  opacity: none;
+}
+
+.partner-list a:focus {
+  opacity: 0.1;
+}
+
+/* footer */
+
+.footer-adress {
+  color: var(--basic-text-grey);
+  line-height: 18px;
+  font-style: normal;
+
+}
+
+.contacts-phone {
+  color: var(--basic-text-grey);
+}
+
+.social-icon {
+
+}
+
+.profitable {
+  color: var(--basic-grey);
+  line-height: 22px;
+}
+
+.profitable-bold {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.map {
+  background-color: var(--basic-grey);
+}
+
+/* Popup */
+
+.popup {
+  color: var(--basic-black);
+}
+
+.popup-bold {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 53px;
+}
+
+.popup-description {
+  line-height: 18px;
+  font-weight: 700;
+}
