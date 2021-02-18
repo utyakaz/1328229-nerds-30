@@ -84,14 +84,18 @@ img {
 
 .button {
   color: var(--basic-white);
-}
-
-.button-features {
-  background-color: var(--basic-light-red);
   border-radius: 3px;
   font-size: 16px;
   font-weight: 500;
   line-height: 18px;
+}
+
+.button:active {
+  color: var(--basic-white03);
+}
+
+.button-features {
+  background-color: var(--basic-light-red);
 }
 
 .button-features:hover {
@@ -100,15 +104,10 @@ img {
 
 .button-features:active {
   background-color: var(--basic-red);
-  color: var(--basic-white03);
 }
 
 .button-red {
   background-color: var(--basic-light-red);
-  border-radius: 3px;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 18px;
 }
 
 .button-red:hover {
@@ -117,14 +116,9 @@ img {
 
 .button-red:active {
   background-color: var(--basic-red);
-  color: var(--basic-white03);
 }
 .button-green {
   background-color: var(--basic-light-green);
-  border-radius: 3px;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 18px;
 }
 
 .button-green:hover{
@@ -133,15 +127,10 @@ img {
 
 .button-green:active {
   background-color: var(--basic-green);
-  color: var(--basic-white03);
 }
 
 .button-yellow {
   background-color: var(--basic-light-yellow);
-  border-radius: 3px;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 18px;
 }
 
 .button-yellow:hover {
@@ -150,15 +139,10 @@ img {
 
 .button-yellow:active {
   background-color: var(--basic-light-yellow);
-  color: var(--basic-white03);
 }
 
 .button-contacts {
   background-color: var(--basic-light-red);
-  border-radius: 3px;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 18px;
 }
 
 .button-contacts:hover {
@@ -167,7 +151,6 @@ img {
 
 .button-contacts:active {
   background-color: var(--basic-red);
-  color: var(--basic-white03);
 }
 
 
@@ -184,13 +167,6 @@ img {
 
 .site-navigation {
   list-style: none;
-  text-align: center;
-  vertical-align: center;
-}
-
-.basket {
-  text-align: right;
-  vertical-align: center;
 }
 
 .site-navigation a,
@@ -203,7 +179,7 @@ img {
   color: var(--basic-light-red);
 }
 
-.site-navigation a:focus,
+.site-navigation a:active,
 .basket a:active {
   color: var(--basic-black);
   opacity: 0.3;
@@ -219,10 +195,6 @@ img {
   list-style: none;
 }
 
-.features-item {
-  text-align: left;
-}
-
 .features-text-main {
   font-size: 55px;
   line-height: 1;
@@ -231,11 +203,6 @@ img {
 }
 
 /* services */
-
-.services {
-  margin: 140px;
-  text-align: left;
-}
 
 .title-service-name {
   font-size: 24px;
@@ -254,10 +221,6 @@ img {
 
 /* Info */
 
-.info {
-  margin: 140px;
-}
-
 .info-text-main {
   font-size: 45px;
   font-weight: 500;
@@ -265,17 +228,16 @@ img {
   color: var(--basic-black);
 }
 
-.info-list-title {
+.info-title-services {
   font-weight: 700;
   color: var(--basic-black);
   text-transform: uppercase;
 }
 
-.info-list-title2 {
+.info-title-guarantee {
   font-weight: 700;
   color: var(--basic-black);
   text-transform: uppercase;
-  text-align: center;
 }
 
 .info-list p {
@@ -288,7 +250,6 @@ img {
 
 .info-list-percent {
   list-style: none;
-  text-align: left;
 }
 
 .percent {
@@ -300,10 +261,6 @@ img {
 
 
 /* Partners */
-
-.partners {
-  margin: 140px;
-}
 
 .partners-list {
   list-style: none;
@@ -331,9 +288,6 @@ img {
 .footer-address {
   line-height: 18px;
   font-style: normal;
-  text-align: left;
-  vertical-align: center;
-  margin-left: 140px;
 }
 
 .company-name {
@@ -356,20 +310,17 @@ img {
   width: 81px;
   height: 81px;
   background-color: var(--basic-icon-grey);
-  margin-left: 140px;
 }
 
 .profitable {
   color: var(--basic-grey);
   line-height: 22px;
-  margin-left: 540px;
 }
 
 .profitable-title {
   font-size: 36px;
   font-weight: 700;
   line-height: 36px;
-  text-align: left;
 }
 
 
@@ -387,7 +338,6 @@ img {
   font-size: 45px;
   font-weight: 700;
   line-height: 53px;
-  text-align: 340px;
 }
 
 .popup-description {
