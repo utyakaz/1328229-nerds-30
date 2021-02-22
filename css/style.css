@@ -26,6 +26,7 @@
 /* Variables */
 :root {
   --basic-black: #000000;
+  --basic-black03: rgba(000, 000, 000, 0.3);
   --basic-white: #ffffff;
   --basic-white03: rgba(255, 255, 255, 0.3);
   --basic-light-red: #fb565a;
@@ -276,6 +277,102 @@ img {
 
 .partners-logo:active {
   opacity: 0.1;
+}
+
+/* Catalog */
+
+/* filters */
+
+
+
+.filter ul {
+  list-style: none;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.filter-name {
+  font-size: 18px;
+  color: var(--basic-black);
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.interval {
+  line-height: 22px;
+  text-transform: uppercase;
+  background-color: var(--basic-light-grey);
+}
+
+
+
+.filter-input-radio:hover,
+.filter-input-radio:active {
+  color: var(--basic-dark-grey)
+}
+
+.filter-input-checkbox:hover,
+.filter-input-checkbox:active {
+  color: var(--basic-dark-grey)
+}
+
+.filter-button {
+  opacity: 0.3;
+}
+
+.filter-button:hover {
+  opacity: 0.6;
+}
+
+.filter-button:active {
+  opacity: inherit;
+}
+
+/* catalog */
+
+.template-list {
+  list-style: none;
+}
+
+.tamplate-title {
+  font-size: 18px;
+  color: var(--basic-black);
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.tamplate-description {
+  color: var(--basic-text-grey);
+}
+
+.template-item a:hover {
+  color: var(--basic-light-red);
+}
+
+.tamplate-title:active {
+  opacity: 0.3;
+}
+
+.img-browser {
+  opacity: 0.12;
+}
+
+.img-browser:hover {
+  opacity: 1;
+}
+
+.pagination-list {
+  list-style: none;
+}
+
+.item-number {
+  color: var(--basic-black);
+}
+
+.pagination-list a:active {
+  color: var(--basic-black03);
 }
 
 
