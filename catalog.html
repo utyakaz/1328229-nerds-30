@@ -14,7 +14,6 @@
   <link rel="apple-touch-icon" href="favicon/icon180.png">
   <link rel="manifest" href="manifest.webmanifest">
 </head>
-
 <body class="page-body inner-page">
   <header class="main-header">
     <div class="container">
@@ -29,8 +28,8 @@
           <li><a href="blank.html">Контакты</a></li>
         </ul>
         <div class="basket">
-          <a href="blank.html">Корзина</a>
-          <img src="img/cart-icon.png" width="15" height="15" alt="Логотип корзины">
+          <!--<img src="img/cart-icon.png" width="15" height="15" alt="Логотип корзины">-->
+          <a class="basket-input" href="blank.html">Корзина</a>
         </div>
       </nav>
     </div>
@@ -39,22 +38,20 @@
     <h1 class="title-catalog">Магазин готовых шаблонов</h1>
     <div class="page-catalog container">
       <section class="filter">
-        <h2 class="title-filter">Фильтр шаблонов</h2>
+        <h2 class="visually-hidden">Фильтр шаблонов</h2>
         <form method="get" action="https://echo.htmlacademy.ru">
           <fieldset class="interval">
             <legend class="filter-name">Стоимость</legend>
+            <div class="interval-range">
+              <input class="interval-range" type="range" min="0" max="15000" step="1">
+            </div>
             <ul class="interval-list">
               <li class="interval-item">
-                <div class="interval-input">
-                  <input class="interval-input" type="range" min="0" max="15000" step="1">
-                </div>
-              </li>
-              <li class="interval-item">
                 <label>
-                  от<input class="interval-input" type="text" value="0">
+                  <div>от<input class="interval-input" type="text" value="0"></div>
                 </label>
                 <label>
-                  до<input class="interval-input" type="text" value="15000">
+                  <div>до<input class="interval-input" type="text" value="15000"></div>
                 </label>
               </li>
             </ul>
@@ -127,7 +124,7 @@
         </ul>
       </section>
       <section class="catalog">
-        <h2>Каталог готовых шаблонов</h2>
+        <h2 class="visually-hidden">Каталог готовых шаблонов</h2>
         <ul class="template-list">
           <li class="template-item">
             <img class="img-browser" src="img/browser.png" alt="картинка браузера">
@@ -202,7 +199,7 @@
   </main>
   <footer class="main-footer">
     <section class="contacts">
-      <h2 class="contacts-title">Контакты</h2>
+      <h2 class="visually-hidden">Контакты</h2>
       <address class="footer-address container">
         <p class="company-name">NЁRDS DESIGN STUDIO</p>
         <p>191186, Санкт-Петербург, ул.Б.Конюшенная, д.19/8</p>
